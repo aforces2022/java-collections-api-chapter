@@ -4,7 +4,7 @@ import java.util.*;
 
 public class MapTest {
     public static void main(String[] args) {
-        String name="aditya pradhan";
+        String name="rajesh shrestha";
 
         char[] chars = name.toCharArray();
 
