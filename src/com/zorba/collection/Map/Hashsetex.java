@@ -1,13 +1,15 @@
 package com.zorba.collection.Map;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 public class Hashsetex {
     public static void main(String[] args) {
         Set<String> sets = new HashSet<>();
         //sets.add("hi");
+
+
+        System.out.println(sets.add("123"));
+        System.out.println(sets.toString());
 
         System.out.println(sets.add("abc"));
         System.out.println(sets.add("xyz"));
