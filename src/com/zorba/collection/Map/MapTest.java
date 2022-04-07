@@ -19,7 +19,24 @@ public class MapTest {
             }
         }
 
-        System.out.println(nameMap);
+        //System.out.println(nameMap);
+
+        Set<Character> keys = nameMap.keySet();
+
+        for(Character c: keys){
+            System.out.println("key : "+ c+"  value: "+nameMap.get(c));
+        }
+
+
+
+        for(Map.Entry<Character,Integer> entry: nameMap.entrySet()){
+
+            System.out.println(entry.getKey()+" ----"+entry.getValue());
+        }
+
+        Collection<Integer> integerList =nameMap.values();
+
+
     }
 
 }
