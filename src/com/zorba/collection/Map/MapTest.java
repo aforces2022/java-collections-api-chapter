@@ -8,7 +8,7 @@ public class MapTest {
 
         char[] chars = name.toCharArray();
 
-        Map<Character,Integer> nameMap = new HashMap<>();
+        Map<Character,Integer> nameMap = new LinkedHashMap<>();
 
         for(char c :chars){
 
@@ -35,6 +35,13 @@ public class MapTest {
         }
 
         Collection<Integer> integerList =nameMap.values();
+
+        System.out.println(nameMap.size());
+        System.out.println(nameMap.isEmpty());
+        System.out.println(nameMap.containsValue(3));
+
+
+
 
 
     }
