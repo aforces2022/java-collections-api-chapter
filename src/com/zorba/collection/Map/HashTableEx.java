@@ -7,6 +7,7 @@ public class HashTableEx {
         Hashtable table = new Hashtable();
         table.put("hi", "hello");
         table.put("hey","morning");
+        //table.put(null,"hi");
 
         System.out.println(table);
     }

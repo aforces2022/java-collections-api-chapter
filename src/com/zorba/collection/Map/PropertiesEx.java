@@ -12,5 +12,9 @@ public class PropertiesEx {
         properties.setProperty("3","cde");
 
         System.out.println(properties);
+
+        System.out.println(properties.getProperty("1"));
+        System.out.println(properties.getProperty("3"));
+        System.out.println(properties.getProperty("5"));
     }
 }
