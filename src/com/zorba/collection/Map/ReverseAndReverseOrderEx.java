@@ -1,5 +1,7 @@
 package com.zorba.collection.Map;
 
+import sun.security.krb5.internal.crypto.Des;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -24,7 +26,11 @@ public class ReverseAndReverseOrderEx {
         slist.add("X");
         slist.add("F");
         slist.add("I");
-        Collections.sort(slist,c);
+        System.out.println(slist);
+        System.out.println("---------");
+        //Collections.sort(slist,c);
+        Collections.sort(slist,new DescStringComp());
+
         System.out.println(slist);
     }
 }
