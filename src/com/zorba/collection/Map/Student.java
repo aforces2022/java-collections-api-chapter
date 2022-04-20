@@ -1,6 +1,6 @@
 package com.zorba.collection.Map;
 
-public class Student implements Comparable{
+public class Student {
 
     private int id;
 
@@ -26,6 +26,10 @@ public class Student implements Comparable{
         this.name = name;
     }
 
+    public Student(){
+
+    }
+
     @Override
     public String toString() {
         return "Student{" +
@@ -34,8 +38,8 @@ public class Student implements Comparable{
                 '}';
     }
 
-    @Override
-    public int compareTo(Object o) {
+    //@Override
+   /* public int compareTo(Object o) {
         return 0;
-    }
+    }*/
 }

@@ -15,11 +15,13 @@ public class IteratorEx {
         System.out.println(list);
 
         Iterator<Integer> iterator = list.iterator();
+        //iterator.pr
         while (iterator.hasNext()){
             Integer i = iterator.next();
             System.out.println(i);
             if(i%2==0){
                 iterator.remove();
+                //iterator
             }
         }
         System.out.println(list);

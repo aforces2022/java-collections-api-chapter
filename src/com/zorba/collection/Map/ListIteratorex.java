@@ -22,7 +22,16 @@ public class ListIteratorex {
             if(s.equals("d")){
                 itr.add("g");
             }
+            //itr.hasPrevious();
+            //itr.previous();
+            if(s.equals("e")){
+                while (itr.hasPrevious()){
+                    itr.remove();
+                }
+            }
         }
         System.out.println(list);
+
+        //
     }
 }

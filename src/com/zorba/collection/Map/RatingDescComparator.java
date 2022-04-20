@@ -12,10 +12,13 @@ public class RatingDescComparator  implements Comparator<Product>{
         //Integer.valueOf(r1).compareTo(Integer.valueOf(r2));
         if(r1<r2){
             return +2;
-        }else if(r1>r2){
+        }/*else if(r1>r2){
             return -5;
         }else{
             return 0;
+        }*/
+        else{
+            return -5;
         }
 
     }

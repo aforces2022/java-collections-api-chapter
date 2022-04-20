@@ -1,7 +1,6 @@
 package com.zorba.collection.Map;
 
-import java.util.TreeMap;
-import java.util.TreeSet;
+import java.util.*;
 
 public class TreeMapEx {
     public static void main(String[] args) {
@@ -26,6 +25,10 @@ public class TreeMapEx {
 
         System.out.println(map);
         //System.out.println(map.comparator());
+
+       Map<StringBuilder, Integer> map1 = new TreeMap<>(new SBCOmparater());
+        map1.put(new StringBuilder("hi"),1);
+        System.out.println(map1);
 
 
 

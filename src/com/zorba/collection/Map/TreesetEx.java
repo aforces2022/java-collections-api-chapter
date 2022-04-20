@@ -32,6 +32,15 @@ public class TreesetEx {
 
         System.out.println(treeSet);*/
 
+        TreeSet treeset = new TreeSet(new MyStudentComparator());
+        treeset.add(new Student());
+        //treeset.add(new StringBuilder("a"));
+        //String
+
+        System.out.println(treeset);
+
+
+
 
 
     }
