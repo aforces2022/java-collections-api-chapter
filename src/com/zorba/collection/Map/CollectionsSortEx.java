@@ -11,6 +11,7 @@ public class CollectionsSortEx {
         l.add("Z");
         l.add("B");
         l.add("I");
+        l.add("K");
 
         System.out.println(l);
         Collections.sort(l);
